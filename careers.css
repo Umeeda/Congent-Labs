@@ -1,0 +1,467 @@
+body{
+    background: #F8F8F8;
+}
+.first-div{
+    width: 100%;
+    height:560px;
+    background-image: linear-gradient(to right,#369DA3,#264A8F 85%);
+     position: relative;
+    margin: 0;
+
+}
+.first{
+    width: 100%;
+    height: 60px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+}
+.first img{
+    width:10%;
+    padding: 10 30px;
+    display: block;
+    margin-top: -1%;
+}
+.first button{
+    width: 8%;
+    height:20px;
+    margin-top: 1%;
+    border: none;
+    background: none;
+    color: white;
+}
+.first-div::after {
+    top: -190px;
+    right: -160px;
+    width: 60%;
+    bottom: 0;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background-image: url("https://cogent-labs.hirestream.io/staticfiles/bundles/static/media/hero-banner-wawe.d9db52a4.svg");
+    transform: rotate(90deg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.three-divs{
+    width: 100%;
+    height: 500px;
+    background:none;
+    display: flex;
+    flex-direction: row;
+}
+.one-div{
+    margin-top:15%;
+    width: 60%;
+    height: 300px;
+    background:none;
+   
+}
+.two-divs{
+    margin-top:5%;
+    width: 40%;
+    height: 400px;
+    background:none;
+    z-index: 20;
+}
+.two{
+    width: 70%;
+    height:350px;
+    background-color:#38A3A5;
+    margin:auto;
+    color: white;
+    border-radius: 5px;
+}
+.two ul{
+    list-style: none;
+}
+.two ul li{
+    padding: 10px;
+}
+.two ul li i{
+    padding: 0 20px;
+    font-size: 20px;
+}
+.two .l{
+    margin-left: 55px;
+}
+.two h4{
+    font-size: 25px;
+    padding-top: 5%;
+    margin-left: 62px;
+}
+.two span{
+    font-weight:100;
+}
+.two button{
+    padding: 16 90px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(9, 9, 82);
+    font-size: 14px;
+}
+.in{
+    border: none;
+    font-size: 20px;
+}
+.one-div h1{
+    font-size: 60px;
+   font-weight: 100;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    color: white;
+}
+.search i{
+  font-size: 20px;
+  color: rgb(194, 193, 192);
+  padding: 10px;
+}
+.search i:hover{
+    border-radius: 50%;
+    background: rgb(240, 240, 240);
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.search input:focus{
+    border: none;
+    outline: none;
+}
+.search input {
+    width: 90%;
+}
+.a1-div{
+    width: 100%;
+    height: 110px;
+    background-color: #F8F8F8;
+}
+.a1-div h1{
+    padding: 30 20px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #0F1439;
+    margin-top: 5%;
+}
+.a1-div span{
+    font-weight: 100;
+}
+.many-divs{
+    width: 100%;
+    height: 325px;
+    background-color:#F8F8F8;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.b1-div{
+    width: 33%;
+    height: 270px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(204, 204, 204);
+}
+.b2-div{
+    width: 34%;
+    height: 270px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgb(204, 204, 204);
+}
+.b3-div{
+    width: 33%;
+    height: 270px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgb(204, 204, 204);
+}
+.b1-div button{
+    width: 18%;
+    height: 28px;
+    border-radius: 5px;
+    background-color:#3AD8B6;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-top: 4px;
+    border: none;
+}
+.b2-div button{
+    width: 18%;
+    height: 28px;
+    border-radius: 5px;
+    background-color:#3AD8B6;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 4px; 
+    border: none;
+}
+.b3-div button{
+    width: 18%;
+    height: 28px;
+    border-radius: 5px;
+    background-color:#3AD8B6;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 4px; 
+    border: none;
+}
+.b4{
+    width:20%;
+    height:3px;
+    background-color: gray;
+    margin: auto;
+}
+.b1-div h3{
+    color: #0c1c97;
+    text-align: center;
+    font-size: 25px;
+}
+.b1-div h4{
+    text-align: center;
+    color:gray ;
+}
+.b1-div h3:hover{
+    color:aqua;
+}
+.b4  :hover{
+   color: aqua;
+}
+.b1-div h5{
+    color: rgb(220, 220, 220);
+    font-size: 17px;
+    text-align: center;
+}
+.b2-div h3{
+    color: #0c1c97;
+    text-align: center;
+    font-size: 25px;
+}
+.b2-div h4{
+    text-align: center;
+    color:gray ;
+}
+.b2-div h3:hover{
+    color:aqua;
+}
+.b2-div h5{
+    color: rgb(220, 220, 220);
+    font-size: 17px;
+    text-align: center;
+}
+.b3-div h3{
+    color: #0c1c97;
+    text-align: center;
+    font-size: 25px;
+}
+.b3-div h4{
+    text-align: center;
+    color:gray ;
+}
+.b3-div h3:hover{
+    color:aqua;
+}
+.b3-div h5{
+    color: rgb(220, 220, 220);
+    font-size: 17px;
+    text-align: center;
+}
+.b5-div{
+    width: 100%;
+    height: 120px;
+    background-color:#F8F8F8;
+}
+.b5-div h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #030835;
+    margin-top: 50px;
+    padding: 20px;
+}
+.b5-div span{
+    font-weight: 100;
+}
+.images{
+    width: 100%;
+    height: 230px;
+    background-color:#F8F8F8;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.m1{
+    width: 33%;
+    height: 180px;
+    background-color:#FFFFFF;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(204, 204, 204);
+    border-radius: 2px;
+}
+.m2{
+    width: 34%;
+    height: 180px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgb(204, 204, 204);
+    border-radius: 2px;
+}
+.m3{
+    width: 33%;
+    height: 180px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgb(204, 204, 204);
+    border-radius: 2px;
+}
+.m1 img{
+    width: 50%;
+    height: 100px;
+}
+.m2 img{
+    width: 50%;
+    height: 100px;
+}
+.m3 img{
+    width: 50%;
+    height: 100px;
+}
+.im1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(6, 6, 184);
+    margin: auto;
+    margin-top: -5%;
+}
+.im2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(6, 6, 184);
+    margin: auto;
+    margin-top: -5%;
+}
+.im3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(6, 6, 184);
+    margin: auto;
+    margin-top: -5%;
+}
+.im1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.im2 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.im3 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.m1 h3{
+   text-align: center;
+   color: #051ceb;
+}
+.m1 h4{
+    text-align: center;
+    color: #b0b1b4;
+ }
+ .m2 h3{
+    text-align: center;
+    color: #061df0;
+ }
+ .m2 h4{
+    text-align: center;
+    color:#b0b1b4;
+ }
+ .m3 h3{
+    text-align: center;
+    color: #081ee7;
+ }
+ .m3 h4{
+    text-align: center;
+    color:#b0b1b4;
+ }
+ .last-div{
+    width: 100%;
+    height: 240px;
+    background-color:#F8F8F8;
+ }
+ .n1-div{
+    width: 100%;
+    height: 230px;
+    background-image: linear-gradient(to right,#369DA3,#264A8F 85%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+ }
+ .n2{
+    width: 60%;
+    height: 200px;
+    background:none;
+ }
+ .n3{
+    width: 40%;
+    height: 200px;
+    background:none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ }
+ .n2 h1{
+    color: white;
+    font-weight: 300;
+    padding:0 25px;
+    margin-left: 55px;
+    margin-top:90px;
+ }
+ .n2 h2{
+    color: white;
+    font-weight: 100;
+    padding:0 25px;
+    margin-left: 55px;
+    margin-top: -2%;
+ }
+ .n3 input{
+    width: 40%;
+    height: 40px;
+   padding: 5 10px;
+   margin-top: 90px;
+   margin-left: 70px;
+   border: none;
+ }
+ .n3 button{
+    width: 23%;
+    height: 40px;
+    margin-top: 90px;
+    border-radius: 4px;
+    border: none;
+    background-color: #3AD8B6;
+ }
+ .last-text{
+    width: 100%;
+    height: 100px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+ }
+ .last-text i{
+     padding: 20px;
+    font-size: 30px;
+    color: #2213f7;
+ }
+ .last-text h5{
+    padding: 10px;
+    color: rgb(182, 181, 181);
+ }
